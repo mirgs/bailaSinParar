@@ -1,0 +1,225 @@
+/*
+	miMain.css
+	Creador: Miriam García Sánchez	
+	DNI: 70903845C
+	Fecha: 21/04/2018
+*/
+
+html {
+    color: #222;
+    font-size: 12px;
+	width:100%;
+    height: 100%;
+	margin: 0;
+}
+
+body {
+	width:100%;
+	height:100%;
+	margin: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#contenedorPadre{
+	background-color: white;
+	    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	
+}
+
+/*#izq{
+	background-color: white;
+	width:20%;
+	height:100%;
+	position:absolute;
+	float:left;
+	overflow: hidden;
+}*/
+
+#centro{
+	//background-color: green;
+	background-image: url('img/iphone.PNG');
+	//background-size: 60%;
+	background-repeat: no-repeat;
+	width: 489px;
+	height:100%;
+	overflow: hidden;
+	
+}
+
+/*#der{
+	background-color: white;
+	width:20%;
+	height:100%;
+	position:absolute;
+	float:left;
+	overflow: hidden;
+	margin-left: 80%;
+}*/
+
+img.imgIndex{    
+	width: 20%;
+    height: 90%;
+	border: silver 3px solid;
+	border-image-slice: 27;
+	/*border-style:dotted;
+	border-width:1px;*/
+}
+
+#menu{
+	background-color: grey;
+    margin-right: 38px;
+    margin-left: 33px;
+	padding-left:10%;
+	
+}
+
+/*CONTENIDO DE LA LA APP*/
+#contenido{
+	//background-color: #38BEBE;
+	overflow: hidden;
+	margin: 35px;
+	margin-right: 38px;
+	margin-left: 33px;
+	height: calc(100% - 180px);
+}
+
+div.section{
+	//background-color: yellow;
+	height:100%;
+	overflow: hidden;
+	overflow-y:scroll;
+}
+
+h1{
+	font-weight: bold;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 2.5em;
+	margin-top: 1.1em;
+}
+
+/*Inicio*/
+p{
+	font-size: 1.5em;
+    line-height: 1.5em;
+	text-align:justify;
+	font-family: Helvetica;
+	padding: 1em;
+}
+
+.imgIni{
+	width:100%;
+	height:60%;
+}
+
+/*BAILES*/
+ul{
+	list-style-type:none;
+}
+
+li{
+	//background-color: yellow;
+	width:95%;
+	height:100%;
+	font-size: 2.5em;
+}
+li:hover{
+	color:red;
+}
+
+a.enlaceVideo1:link,
+a.enlaceVideo2:link, 
+a.enlacesdelmenu:link{
+	color: black;	
+}
+
+a.enlaceVideo1:visited,
+a.enlaceVideo2:visited,
+a.enlacesdelmenu:visited{
+	color: black;	
+}
+.enlacesdelmenu{
+	text-decoration:none;
+}
+
+.imgBailes{
+	width:30%;
+	height:20%;
+	margin-righ: 1%;
+	margin-legt: 0;
+}
+
+/*Bachata*/
+.atras{
+	width:10%;
+	height:5%;
+	//margin-righ: 5%;
+	margin-top: 50px;
+}
+
+.opcion{
+	text-align: center;
+	margin-legt: 10%;
+}
+
+a.enlaceVideo1{
+	text-decoration:none;
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size: 1.5em;
+	text-align:center;
+	padding-left:12%;
+	
+}
+a.enlaceVideo2{
+	text-decoration:none;
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size: 1.5em;
+	text-align:center;
+	padding-left:5%;
+}
+
+li.enlaceVideo{
+	background-color: grey;
+	margin-righ:20%;
+}
+
+video{
+	width:100%;
+	//height:100%;
+}
+
+
+/*TUTORIALES*/
+
+iframe.mediaDispositivo{
+	width:80%;
+	height:40%;
+    vertical-align: middle;
+	margin-top:5%;
+	margin-left:10%;
+}
+
+div.sectionT{
+	//background-color: yellow;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	overflow-y:scroll;
+}
+
+/*ESTADISTICAS*/
+
+img.img{
+	width:100%;
+	height:40%;
+}
