@@ -126,12 +126,28 @@ p{
 	margin-left: 35%;
 }
 
+/*Detectar música*/
 .imgAudio2{
 	width:90%;
 	height: 50%;
 	margin-top: 20%;
 	margin-left: 6%;
 }
+
+.imgAudio3{
+	width:90%;
+	height: 50%;
+	//margin-top: 20%;
+	margin-left: 6%;
+	margin-bottom: 20%
+}
+.atras2{
+	width:10%;
+	height:5%;
+	margin-left: 90%;
+	margin-top: 50px;
+}
+
 
 /*BAILES*/
 ul{
