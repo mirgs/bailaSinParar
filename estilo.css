@@ -120,6 +120,19 @@ p{
 	height:60%;
 }
 
+.imgAudio{
+	width:30%;
+	height: 15%;
+	margin-left: 35%;
+}
+
+.imgAudio2{
+	width:90%;
+	height: 50%;
+	margin-top: 20%;
+	margin-left: 6%;
+}
+
 /*BAILES*/
 ul{
 	list-style-type:none;
