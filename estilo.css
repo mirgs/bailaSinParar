@@ -14,9 +14,9 @@ html {
 }
 
 body {
-	width:100%;
-	height:100%;
-	margin: 0;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
 }
 
 .hidden {
@@ -46,10 +46,12 @@ body {
 #centro{
 	//background-color: green;
 	background-image: url('img/iphone.PNG');
+    background-size: cover;
 	//background-size: 60%;
 	background-repeat: no-repeat;
 	width: 489px;
 	height:100%;
+     //height: 90%;
 	overflow: hidden;
 	
 }
