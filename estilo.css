@@ -75,22 +75,20 @@ img.imgIndex{
 
 #menu{
 	background-color: grey;
-    margin-right: 38px;
-    margin-left: 33px;
-	padding-left:10%;
-    //margin: 10px 0 0 10px;
-	bottom: 0;
+    position: absolute;
+    width: 25%;
+    text-align: -webkit-center;
+    margin-left: 2%;
 	
 }
 
 /*CONTENIDO DE LA LA APP*/
 #contenido{
-	//background-color: #38BEBE;
 	overflow: hidden;
-	margin: 35px;
+     margin-top: 20%;
 	margin-right: 38px;
 	margin-left: 33px;
-	height: calc(100% - 180px);
+	height: calc(95% - 180px);
 }
 
 div.section{
