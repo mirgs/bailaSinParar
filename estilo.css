@@ -11,12 +11,15 @@ html {
 	width:100%;
     height: 100%;
 	margin: 0;
+	padding:0;
 }
 
 body {
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
+	width:100%;
+    height: 100%;
+	margin: 0;
+	padding:0;
+	zoom: 100%;
 }
 
 .hidden {
@@ -32,55 +35,40 @@ body {
     align-items: center;
     justify-content: center;
 	
+	
+	zoom: 100%;
 }
-
-/*#izq{
-	background-color: white;
-	width:20%;
-	height:100%;
-	position:absolute;
-	float:left;
-	overflow: hidden;
-}*/
 
 #centro{
 	//background-color: green;
 	background-image: url('img/iphone.PNG');
-    background-size: cover;
+    //background-size: cover;
+    background-size: inherit;
 	//background-size: 60%;
 	background-repeat: no-repeat;
-	width: 489px;
+	width: 30%;
 	height:100%;
-     //height: 90%;
 	overflow: hidden;
 	
+	zoom: 100%;
+	
 }
-
-/*#der{
-	background-color: white;
-	width:20%;
-	height:100%;
-	position:absolute;
-	float:left;
-	overflow: hidden;
-	margin-left: 80%;
-}*/
 
 img.imgIndex{    
 	width: 20%;
     height: 90%;
 	border: silver 3px solid;
 	border-image-slice: 27;
-	/*border-style:dotted;
-	border-width:1px;*/
 }
 
 #menu{
 	background-color: grey;
     position: absolute;
-    width: 20%;
+    width: 22%;
     text-align: -webkit-center;
-    margin-left: 3%;
+    margin-top: 2%;
+    margin-left: 1.6%;
+	
 	
 }
 
@@ -88,10 +76,11 @@ img.imgIndex{
 #contenido{
 	overflow: hidden;
     margin-top: 20%;
-	margin-right: 38px;
-	margin-left: 33px;
-	height: calc(95% - 180px);
-    width: calc(100% - 55px);
+    margin-left: 33px;
+    height: calc(80% - 170px);
+    width: calc(100% - 142px);
+	
+	
 }
 
 div.section{
@@ -129,7 +118,6 @@ p{
 	margin-left: 35%;
 }
 
-/*Detectar música*/
 .imgAudio2{
 	width:90%;
 	height: 50%;
