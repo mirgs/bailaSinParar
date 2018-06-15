@@ -34,23 +34,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-	
-	
 	zoom: 100%;
 }
 
 #centro{
 	//background-color: green;
 	background-image: url('img/iphone.PNG');
-    //background-size: cover;
-    background-size: inherit;
+   // background-size: inherit;
+	background-size: contain;
 	//background-size: 60%;
 	background-repeat: no-repeat;
 	width: 30%;
 	height:100%;
 	overflow: hidden;
-	
-	zoom: 100%;
 	
 }
 
@@ -76,18 +72,19 @@ img.imgIndex{
 #contenido{
 	overflow: hidden;
     margin-top: 20%;
-    margin-left: 33px;
+    margin-left: 5.5%;
     height: calc(80% - 170px);
-    width: calc(100% - 142px);
-	
-	
+    width: calc(100% - 158px);
+    /*margin-left: 33px;
+    height: calc(80% - 170px);
+    width: calc(100% - 142px);	*/
 }
 
 div.section{
-	//background-color: yellow;
 	height:100%;
 	overflow: hidden;
 	overflow-y:scroll;
+	zoom:100%;
 }
 
 h1{
@@ -128,7 +125,6 @@ p{
 .imgAudio3{
 	width:90%;
 	height: 50%;
-	//margin-top: 20%;
 	margin-left: 6%;
 	margin-bottom: 20%
 }
